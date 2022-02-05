@@ -57,6 +57,10 @@ nav a:hover {
 	color: #777750;
 }
 
+
+
+
+/* conteúdo */
 main {
 	display: flex;
 	flex-direction: column;
@@ -101,3 +105,16 @@ main {
     border-bottom: 1px solid darkgray;
 }
 
+
+
+/* rodapé */
+
+footer {
+	display: flex;
+	justify-content: flex-start;
+}
+
+
+footer a {
+	margin-left: 3rem;
+}
