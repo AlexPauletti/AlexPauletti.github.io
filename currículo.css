@@ -1,0 +1,111 @@
+/*var()*/ 
+:root {
+
+	--branco-fonte: #Bbbec3;
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+body {
+    font-family: 'Merriweather', sans-serif;
+    background-color: #2f3136;
+	
+}
+
+
+strong {
+	font-weight: bold;
+}
+
+
+
+
+/* cabeçalho */
+.cabecalho {
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 2px solid darkgray;
+}
+
+
+h1 {
+	font-size: 2rem;
+	margin: 2.5rem;
+	color: var(--branco-fonte);
+}
+
+
+.lista_cabecalho {
+	font-size: 0.9rem;
+	margin: 0.7rem 0.7rem 0 0;
+	line-height: 1.5em;
+	color: var(--branco-fonte);
+}
+
+
+nav a {
+	text-decoration: none;
+	color: #9a9a69;
+}
+
+
+nav a:hover {
+	color: #777750;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+}
+
+
+.conteudo_curriculo-titulo {
+	font-weight: bold;
+	font-size: 1.3rem;
+	margin-bottom: 1.2rem;
+	color: var(--branco-fonte);
+	
+}
+
+
+	#ensino1 {
+		margin-left: 10em;
+		color: var(--branco-fonte);
+	}
+
+
+	#ensino2 {
+		margin-left: 14.6em;
+		color: var(--branco-fonte);
+	}
+
+
+
+.conteudo_curriculo {
+	margin: 2rem 0 0 2rem;
+	padding-bottom: 4rem;
+	color: var(--branco-fonte);
+}
+
+
+.conteudo_curriculo:after {
+    content: ""; 
+    display: block; 
+    margin: 0 5rem 0 0;
+    width: 60%;
+    padding-top: 20px;
+    border-bottom: 1px solid darkgray;
+}
+
