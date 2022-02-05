@@ -2,6 +2,7 @@
 :root {
 
 	--branco-fonte: #Bbbec3;
+	--cor-cabecalho-rodape: #202a33;
 
 
 }
@@ -22,6 +23,9 @@ strong {
 }
 
 
+#allbutfooter {
+    min-height: calc(100vh - 40px);
+}
 
 
 /* cabeçalho */
@@ -29,6 +33,7 @@ strong {
 	display: flex;
 	justify-content: space-between;
 	border-bottom: 2px solid darkgray;
+	background-color: var(--cor-cabecalho-rodape);
 }
 
 
@@ -112,9 +117,19 @@ main {
 footer {
 	display: flex;
 	justify-content: flex-start;
+	margin-top: auto;
+	background-color: var(--cor-cabecalho-rodape);
+	border-top: 2px solid darkgray;
 }
 
 
 footer a {
-	margin-left: 3rem;
+	margin: 2rem 0 2rem 3rem;
+}
+
+
+footer p {
+	margin: 7rem 0 0 80rem;
+	font-size: small;
+	color: var(--branco-fonte);
 }
