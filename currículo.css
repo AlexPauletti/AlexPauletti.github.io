@@ -113,7 +113,6 @@ main {
 
 
 /* rodapé */
-
 footer {
 	display: flex;
 	justify-content: flex-start;
@@ -128,8 +127,49 @@ footer a {
 }
 
 
+footer div {
+	display: flex;
+	align-items: flex-end;
+}
+
 footer p {
-	margin: 7rem 0 0 80rem;
 	font-size: small;
 	color: var(--branco-fonte);
+    margin-left: 70vw;
+}
+
+
+
+
+/* responsive */
+@media screen and (max-width: 860px) {
+
+	.cabecalho {
+		width: 113vw;
+		display: flex;
+	}
+
+
+	footer {
+		width: 113vw;
+	}
+}
+
+
+@media screen and (max-width: 842px) {
+
+    .paragrafo_formacao {
+		margin-top: 1.3rem
+	}
+
+	
+	#ensino1 {
+        white-space: nowrap;
+		margin: 0;
+	}
+
+	#ensino2 {
+        white-space: nowrap;
+		margin: 0;
+	}
 }
