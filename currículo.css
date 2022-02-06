@@ -153,6 +153,11 @@ footer p {
 	footer {
 		width: 113vw;
 	}
+
+
+	footer p {
+		margin: 0;
+	}
 }
 
 
